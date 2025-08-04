@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix UI Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="images/netflix-logo.png" alt="Netflix Logo" class="logo" />
+    <nav>
+      <ul class="nav-links">
+        <li>Home</li>
+        <li>TV Shows</li>
+        <li>Movies</li>
+        <li>My List</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Dynamic Hero Section -->
+  <section class="hero" id="hero">
+    <h1 class="hero-title" id="hero-title">Featured Movie Title</h1>
+    <p class="hero-description" id="hero-description">Exciting summary of the movie goes here...</p>
+  </section>
+
+  <!-- Loader -->
+  <div id="loader" class="loader"></div>
+
+  <!-- Movie Rows -->
+  <section class="row">
+    <h2 class="row-title">Trending Now</h2>
+    <div class="row-posters" id="trending"></div>
+  </section>
+
+  <section class="row">
+    <h2 class="row-title">Top Rated</h2>
+    <div class="row-posters" id="top-rated"></div>
+  </section>
+
+  <section class="row">
+    <h2 class="row-title">Now Playing</h2>
+    <div class="row-posters" id="now-playing"></div>
+  </section>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
